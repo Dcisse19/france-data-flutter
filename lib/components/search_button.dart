@@ -16,10 +16,12 @@ class SearchButton extends StatelessWidget {
       icon: const Icon(Icons.search, semanticLabel: 'Aller à la page région'),
       label: const Text(
         "Rechercher Par Région",
-        style: TextStyle(color: Colors.black, fontSize: 18),
+        style: TextStyle(color: Colors.black, fontSize: 20),
       ),
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.blueGrey[200],
+        elevation: 3,
+        minimumSize: const Size(250, 55)
       ),
     );
   }
