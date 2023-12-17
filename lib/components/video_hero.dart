@@ -20,6 +20,8 @@ class _VideoHeroState extends State<VideoHero> {
         setState(() {});
         // Ensure the video is played when the application is started
         _controller.play();
+        // Ensure the video is played in loop
+        _controller.setLooping(true);
       });
   }
 
@@ -39,9 +41,9 @@ class _VideoHeroState extends State<VideoHero> {
                     children: <Widget>[
                       Text(
                         "France Data",
-                        style: TextStyle(color: Colors.white, fontSize: 20),
+                        style: TextStyle(color: Colors.white, fontSize: 30),
                       ),
-                      SizedBox(height: 15),
+                      SizedBox(height: 8),
                       Text(
                         "Atlas des données de France",
                         style: TextStyle(color: Colors.white, fontSize: 20),
