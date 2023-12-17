@@ -18,7 +18,7 @@ class DrawerMenu extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Text>[
               Text("France Data",
-                  style: TextStyle(color: Colors.white, fontSize: 22)),
+                  style: TextStyle(color: Colors.white, fontSize: 28)),
               Text("Atlas de données françaises",
                   style: TextStyle(color: Colors.white, fontSize: 17)),
             ],
@@ -50,7 +50,7 @@ class DrawerMenu extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                     builder: (context) =>
-                        const RegionPage(title: 'Recherche Par Région')));
+                        const RegionPage(title: 'Recherche par région')));
           },
         ),
         const SizedBox(height: 25),
