@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_examen1/components/drawer_menu.dart';
 
-class RegionPage extends StatelessWidget {
-  const RegionPage({super.key, required this.title});
+class SettingsPage extends StatelessWidget {
+  const SettingsPage({super.key, required this.title});
 
   final String title;
 

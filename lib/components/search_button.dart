@@ -11,7 +11,7 @@ class SearchButton extends StatelessWidget {
         Navigator.push(
             context,
             MaterialPageRoute(
-                builder: (context) => const RegionPage(title: 'Region Page')));
+                builder: (context) => const RegionPage(title: 'Recherche Par Région')));
       },
       icon: const Icon(Icons.search, semanticLabel: 'Aller à la page région'),
       label: const Text(
