@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_examen1/components/drawer_menu.dart';
 import 'package:flutter_examen1/components/video_hero.dart';
 import 'package:flutter_examen1/components/search_button.dart';
 
@@ -10,8 +11,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const DrawerMenu(),
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: const Color.fromRGBO(176, 190, 197, 1),
+        iconTheme: const IconThemeData(color: Colors.white),
         centerTitle: false,
         title: Text(
           title,
@@ -31,7 +34,7 @@ class HomePage extends StatelessWidget {
               child: const Text(
                 textAlign: TextAlign.left,
                 "I. Nos Régions",
-                style: TextStyle(color: Colors.white, fontSize: 28),
+                style: TextStyle(color: Colors.white, fontSize: 26),
               )),
           Expanded(
               child: Container(

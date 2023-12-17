@@ -45,6 +45,5 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-  <true/>
 </dict>
 </plist>
